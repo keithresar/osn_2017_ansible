@@ -16,3 +16,6 @@
   - name: start httpd
     service: name=httpd state=running
 
+  - name: add web content
+    copy: src=web_content dest=/var/www/web
+
