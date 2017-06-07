@@ -10,6 +10,7 @@
 
   - name: stop httpd
     service: name=httpd state=stopped enabled=no
+    ignore_errors: True
 
   - name: remove config file
     file: dest=/etc/httpd/conf/httpd.conf state=absent
