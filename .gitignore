@@ -1,2 +1,4 @@
 *.sw?
 *.retry
+ec2.ini
+
