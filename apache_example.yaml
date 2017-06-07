@@ -17,5 +17,5 @@
     service: name=httpd state=running
 
   - name: add web content
-    copy: src=web_content dest=/var/www/web
+    copy: src=web_index.html dest=/var/www/
 
